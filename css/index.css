@@ -1,0 +1,358 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a: visited {
+	color: #397582;
+}
+
+/* banner开始 */
+
+#header {
+	width: 100rem;
+	height: 41.5625rem;
+	margin: 0 auto;
+	border: .0625rem solid #ccc;
+	position: relative;
+}
+
+#header .swiper span.text1 {
+	display: block;
+	width: 20rem;
+	/* z-index: 3; */
+	/* display: none;*/
+	color: #000;
+	position: absolute;
+	top: 164px;
+	left: 181px;
+
+}
+
+#header span.text1 p.bold {
+	font-size: 2.1875rem;
+	opacity: .7;
+	font-weight: bolder;
+	margin-bottom: .5rem;
+}
+
+#header span.text1 p.wrap {
+	width: 20rem;
+	margin-bottom: .25rem;
+	opacity: .8;
+	font-weight: bold;
+}
+
+#header button.bgBotton {
+	width: 8.75rem;
+	height: 3.125rem;
+	color: #fff;
+	cursor: pointer;
+	/* display: none; */
+	font-size: 1.4375rem;
+	border-radius: .3125rem;
+	position: absolute;
+	top: 381px;
+	left: 210px;
+	border: none;
+	background-color: #2A9FD5;
+}
+
+#header .swiper {
+	width: 1600px;
+	height: 545px;
+	z-index: -1;
+	margin-top: 117px;
+}
+
+#header .swiper img {
+	width: 1600px;
+	height: 545px;
+}
+
+#header .swiper .swiper-slide {
+	position: relative;
+}
+
+/* banner结束 */
+#box {
+	position: relative;
+}
+
+/* main开始 */
+
+#box #contentMain {
+	width: 100rem;
+	height: 35.625rem;
+	/* border: .0625rem solid #f00; */
+	margin: 0 auto;
+}
+
+#box #advantage {
+	width: 74.875rem;
+	height: 33.4375rem;
+	margin: 2.3125rem auto;
+	position: relative;
+}
+
+#box #advantage .txt .less {
+	margin-left: 26.875rem;
+}
+
+#box #advantage .txt h2 {
+	text-align: center;
+	margin-bottom: .3125rem;
+	font-size: 1.875rem;
+}
+
+#box #advantage .txt .line {
+	position: absolute;
+	top: 3.375rem;
+	left: 20.0625rem;
+}
+
+#box #advantage .photos {
+	width: 75.875rem;
+	height: 26.9375rem;
+	position: relative;
+	margin-top: 1.25rem;
+	/* border: .0625rem solid rgb(57, 199, 53); */
+}
+
+#box #advantage .photos img {
+	float: left;
+	margin-left: 12px;
+}
+
+#box #advantage .photos .imgs {
+	margin-bottom: 16px;
+}
+
+/* 遮罩层 */
+#box .blackOp .black1 {
+	position: absolute;
+	top: 0px;
+	display: none;
+	left: 0px;
+}
+
+#box .blackOp .black1 .text {
+	color: #fff;
+	opacity: .8;
+	position: absolute;
+	top: 24px;
+	left: 17px;
+}
+
+#box .blackOp .black1 .text button.blackSmall {
+	background-color: #fff;
+	color: #0663C2;
+	width: 90px;
+	border: 0;
+	cursor: pointer;
+	position: absolute;
+	top: 110px;
+	left: 138px;
+	height: 32px !important;
+	margin-top: 100px;
+}
+
+#box .blackOp .black1 .text p {
+	text-align: center;
+	line-height: 323px;
+	width: 390px;
+}
+
+#box .blackOp .black1 span.blackO {
+	width: 390px;
+	height: 430px;
+	background-color: rgba(0, 0, 0, .7);
+	flex: 0;
+	position: absolute;
+	top: 0px;
+	left: 12px;
+}
+
+#box .blackOp .black2 {
+	display: none;
+}
+
+#box .blackOp .black2 .smallBlack {
+	background-color: rgba(0, 0, 0, .6);
+	display: block;
+	position: absolute;
+	bottom: 224px;
+	left: 414px;
+	width: 390px;
+	height: 45px;
+}
+
+#box .blackOp .black2 .word {
+	width: 390px;
+	color: #fff;
+	opacity: .7;
+	position: absolute;
+	top: 172px;
+	left: 437px;
+}
+
+#box .blackOp .black3 {
+	display: none;
+}
+
+#box .blackOp .black3 .smallBlack {
+	background-color: rgba(0, 0, 0, .6);
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 414px;
+	width: 390px;
+	height: 45px;
+}
+
+#box .blackOp .black3 .train {
+	width: 390px;
+	color: #fff;
+	opacity: .7;
+	position: absolute;
+	top: 398px;
+	left: 439px;
+}
+
+#box .blackOp .black4 {
+	display: none;
+}
+
+#box .blackOp .black4 .smallBlack {
+	background-color: rgba(0, 0, 0, .6);
+	display: block;
+	position: absolute;
+	bottom: 226px;
+	left: 816px;
+	width: 390px;
+	height: 45px;
+}
+
+#box .blackOp .black4 .teamwork {
+	width: 390px;
+	color: #fff;
+	opacity: .7;
+	position: absolute;
+	top: 172px;
+	left: 842px;
+}
+
+#box .blackOp .black5 {
+	display: none;
+}
+
+#box .blackOp .black5 .smallBlack {
+	background-color: rgba(0, 0, 0, .6);
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 816px;
+	width: 390px;
+	height: 45px;
+}
+
+#box .blackOp .black5 .era {
+	width: 390px;
+	color: #fff;
+	opacity: .7;
+	position: absolute;
+	top: 400px;
+	left: 834px;
+}
+
+#box #advantage .photos span.right {
+	flex-direction: column;
+	margin-left: .625rem;
+}
+
+#box #advantage .photos span.right .cooperation {
+	margin-bottom: .625rem;
+}
+
+
+/* main结束 */
+
+
+/* 次主体开始  */
+
+#box #ABCPlan {
+	width: 100rem;
+	height: 22.375rem;
+	margin: 0 auto;
+	background-color: rgba(241, 241, 241, 0.5);
+}
+
+#box #ABCPlan .plan .planTxt {
+	display: block;
+	text-align: center;
+	position: relative;
+}
+
+#box #ABCPlan .plan .planTxt .planLine {
+	position: absolute;
+	top: 2.9375rem;
+	left: 33.9375rem;
+	margin-bottom: 20px;
+}
+
+#box #ABCPlan .plan .set {
+	margin-bottom: 20px;
+}
+
+#box #ABCPlan .plan .planTxt h2 {
+	font-size: 1.875rem;
+}
+
+#box #ABCPlan .plan .planTxt h2 span {
+	font-weight: normal;
+	opacity: .7;
+}
+
+#box #ABCPlan .plan .project {
+	width: 83.125rem;
+	text-align: center;
+	opacity: .7;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+#box #ABCPlan .icons {
+	width: 1200px;
+	height: 214px;
+	margin: 30px auto;
+	display: flex;
+	/* border: 1px solid #f00; */
+}
+
+#box #ABCPlan .icons span {
+	flex: 1;
+	flex-direction: column;
+	text-align: center;
+	/* border: 1px solid rgb(46, 205, 44); */
+}
+
+#box #ABCPlan .icons .Acol .Aphoto {
+	margin: 13px 123px;
+}
+
+#box #ABCPlan .icons p {
+	opacity: .6;
+	font-size: 14px;
+}
+
+#box #ABCPlan .icons .Bcol .Bphoto {
+	margin: 13px 123px;
+}
+
+#box #ABCPlan .icons .Ccol .Cphoto {
+	margin: 13px 123px;
+}

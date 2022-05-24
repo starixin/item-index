@@ -1,0 +1,318 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+#box .heared {
+	width: 1600px;
+	height: 843px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 55px;
+	/* border: 1px solid #f00; */
+}
+
+#box .heared .banner {
+	z-index: -1;
+}
+
+#box .heared .return {
+	width: 142px;
+	height: 38px;
+	background-color: #22b2e7;
+	box-shadow: 1px 1px 1px 0px rgba(164, 164, 164, 0.75);
+	font-size: 18px;
+	border: 0;
+	cursor: pointer;
+	position: absolute;
+	top: 51px;
+	right: 160px;
+	color: #ffffff;
+}
+
+#box .idea {
+	width: 1600px;
+	height: 170px;
+	margin: 0 auto;
+	/* border: 1px solid #0f0; */
+}
+
+#box .idea .small {
+	width: 1171px;
+	height: 100%;
+	margin: 0 auto;
+	/* border: 1px solid #00f; */
+}
+
+#box .idea .small p {
+	font-family: FZZCHJW--GB1-0;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	letter-spacing: 3px;
+	color: #187bba;
+}
+
+#box .idea .small .text {
+	font-size: 18px;
+	color: #040000;
+}
+
+#box .tip {
+	width: 1600px;
+	height: 67px;
+	padding-left: 170px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	/* border: 1px solid #00f; */
+}
+
+#box .tip .imgLeft {
+	float: left;
+}
+
+#box .tip .imgRight {
+	float: left;
+	margin-left: 447px;
+}
+
+#box .chars {
+	width: 1600px;
+	height: 550px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	/* border: 1px solid #00f; */
+}
+
+#box .chars img {
+	width: 95%;
+	height: 100%;
+	/* 	margin-top: 10px;
+	margin-left: 28px; */
+}
+
+#box .chars .charCenter {
+	width: 1270px;
+	margin: 0 auto;
+	height: 100%;
+	/* border: 1px solid pink; */
+}
+
+#box .chars .charCenter #charLeft {
+	width: 593px;
+	margin: 0 auto;
+	float: left;
+	height: 100%;
+	/* border: 1px solid skyblue; */
+	/* background-color: #ccc; */
+}
+
+#box .chars .charCenter #charRight {
+	width: 664px;
+	margin: 0 auto;
+	height: 100%;
+	float: right;
+	/* border: 1px solid #00f; */
+}
+
+#box .T {
+	height: 900px;
+	width: 1600px;
+	margin: 0 auto;
+	/* border: 1px solid #f00; */
+}
+
+#box .T .small {
+	width: 1250px;
+	height: 100%;
+	margin: 0 auto;
+	/* border: 1px solid #0f0; */
+}
+
+#box .T .small .text {
+	text-indent: 3em;
+	margin-top: 10px;
+	font-size: 23px;
+	margin-bottom: 100px;
+}
+
+#box .T .small .photo {
+	width: 1144px;
+	margin: 0 auto;
+	height: 603px;
+	position: relative;
+	/* border: 1px solid #00f; */
+}
+
+#box .T .small .photo img {
+	width: 163px;
+	height: 142px;
+	float: left;
+}
+
+#box .T .small .photo .collegeRight {
+	width: 450px;
+	/* border: 1px solid #000; */
+	height: 142px;
+	float: left;
+	margin-top: 64px;
+	margin-left: 13px;
+}
+
+#box .T .small .photo .collegeRight .left {
+	width: 270px;
+	height: 90px;
+	margin-top: 30px;
+	margin-left: 10px;
+	float: left;
+	/* border: 1px solid #000; */
+}
+
+#box .T .small .photo .collegeRight .left p {
+	/* display: block; */
+	width: 124px;
+	height: 27px;
+	font-size: 29px;
+	vertical-align: top;
+	color: #2e88e1;
+}
+
+#box .T .small .photo .collegeRight .left .text21 {
+	width: 272px;
+	height: 48px;
+	margin-top: 10px;
+	font-size: 19px;
+	color: #060102;
+}
+
+#box .T .small .photo .company {
+	float: right;
+	/* margin-top: 20px; */
+	width: 531px;
+	height: 142px;
+	/* border: 1px solid #000; */
+}
+
+#box .T .small .photo .company .map1 {
+	width: 342px;
+	height: 92px;
+	float: left;
+	margin-top: 30px;
+	/* border: 1px solid #000; */
+}
+
+#box .T .small .photo .company .map1 p {
+	/* display: block; */
+	width: 485px;
+	height: 27px;
+	font-size: 29px;
+	vertical-align: top;
+	color: #2e88e1;
+}
+
+#box .T .small .photo .company .map1 .text21 {
+	width: 244px;
+	height: 48px;
+	margin-top: 15px;
+	font-size: 19px;
+	color: #060102;
+}
+
+#box .T .small .photo .middle {
+	float: left;
+	margin-top: 30px;
+	margin-left: 268px;
+}
+
+#box .T .small .photo .middle .textLeft {
+	width: 540px;
+	height: 162px;
+	position: relative;
+	/* border: 1px solid #000; */
+}
+
+#box .T .small .photo .middle .textLeft p {
+	width: 336px;
+	height: 27px;
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 25px;
+	color: #2e88e1;
+}
+
+#box .T .small .photo .middle .textLeft .text22 {
+	width: 288px;
+	margin-top: 5px;
+	margin-left: 10px;
+	height: 102px;
+	font-size: 19px;
+	color: #060102;
+}
+
+#box .T .small .photo .middle .textLeft img {
+	position: absolute;
+	top: 5px;
+	right: 45px;
+}
+
+#box .T .small .photo .bottom1 {
+	width: 560px;
+	height: 160px;
+	/* border: 1px solid #000; */
+	float: left;
+	margin-top: 25px;
+	margin-left: 99px;
+}
+
+#box .T .small .photo .bottom1 .text23 p {
+	width: 524px;
+	height: 28px;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: #2e88e1;
+}
+
+#box .T .small .photo .bottom1 .text23 .text23_1 {
+	width: 488px;
+	height: 75px;
+	font-size: 19px;
+	margin-top: 15px;
+	color: #060102;
+}
+
+#box .T .small .photo>img {
+	width: 411px;
+	height: 469px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+#box .dream1{
+	width: 1600px;
+	height: 1342px;
+	margin: 0 auto;
+	/* border: 1px solid #000; */
+}
+#box .dream1 .top{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	/* border: 1px solid #0f0; */
+}
+#box .dream1  .top .head{
+	width: 684px;
+	height: 260px;
+	margin: 55px auto;
+	display: block;
+}
+#box .dream1  .top .center{
+	width: 1028px;
+	height: 902px;
+	margin: 50px 44px;
+	display: block;
+}
